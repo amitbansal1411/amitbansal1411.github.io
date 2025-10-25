@@ -52,82 +52,52 @@
         
         h2 {
             color: #1e3a8a;
-            border-bottom: 3px solid #3b82f6;
-            padding-bottom: 0.5rem;
             margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #3b82f6;
         }
         
-        .about-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1rem;
-            margin-top: 1rem;
-        }
-        
-        .skill-item, .cert-item {
-            background: #f8fafc;
-            padding: 1rem;
-            border-left: 4px solid #3b82f6;
-            margin: 0.5rem 0;
+        h3 {
+            color: #2563eb;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
         }
         
         .case-study {
             background: #f8fafc;
             padding: 1.5rem;
-            margin: 1rem 0;
-            border-radius: 5px;
+            margin: 1.5rem 0;
+            border-left: 4px solid #3b82f6;
+            border-radius: 4px;
         }
         
         .case-study h3 {
+            margin-top: 0;
             color: #1e3a8a;
-            margin-bottom: 0.5rem;
-        }
-        
-        .contact-links {
-            display: flex;
-            gap: 1rem;
-            flex-wrap: wrap;
-            margin-top: 1rem;
-        }
-        
-        .btn {
-            display: inline-block;
-            background: #3b82f6;
-            color: white;
-            padding: 0.75rem 1.5rem;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background 0.3s;
-        }
-        
-        .btn:hover {
-            background: #1e40af;
-        }
-        
-        footer {
-            background: #1e293b;
-            color: white;
-            text-align: center;
-            padding: 2rem;
-            margin-top: 2rem;
         }
         
         ul {
-            margin-left: 1.5rem;
+            margin-left: 2rem;
+            margin-top: 0.5rem;
         }
         
         li {
-            margin: 0.5rem 0;
+            margin-bottom: 0.5rem;
         }
         
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 2rem;
-            }
-            
-            .container {
-                padding: 1rem;
-            }
+        .contact-info {
+            text-align: center;
+            padding: 2rem;
+        }
+        
+        .contact-info a {
+            color: #3b82f6;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -135,61 +105,25 @@
     <header>
         <h1>Amit Bansal</h1>
         <p>Senior Cybersecurity & GRC Professional</p>
-        <p>CISA | Security+ | ISC² CC | Banking & Financial Security</p>
+        <p>10+ Years in Banking & Financial Services</p>
     </header>
-
+    
     <div class="container">
         <section class="section">
-            <h2>About Me</h2>
-            <p>Senior Cybersecurity & GRC Professional with 10+ years of experience in banking and financial services, specializing in enterprise security controls, risk management, and regulatory compliance.</p>
+            <h2>Professional Summary</h2>
+            <p>Seasoned Cybersecurity and GRC professional with over 10 years of progressive experience in the banking and financial services industry. Specialized in designing and implementing comprehensive risk management frameworks, governance programs, and security controls aligned with regulatory requirements and industry best practices.</p>
         </section>
-
+        
         <section class="section">
-            <h2>Core Expertise</h2>
-            <div class="about-grid">
-                <div class="skill-item">
-                    <strong>Governance, Risk & Compliance (GRC)</strong>
-                    <p>Security Auditing | Third-Party Risk Management</p>
-                </div>
-                <div class="skill-item">
-                    <strong>Regulatory Frameworks</strong>
-                    <p>OSFI, PIPEDA, GDPR, PCI DSS, ISO/IEC 27001, NIST CSF</p>
-                </div>
-                <div class="skill-item">
-                    <strong>Cybersecurity Strategy</strong>
-                    <p>Incident Response | Vulnerability Management</p>
-                </div>
-                <div class="skill-item">
-                    <strong>Identity & Access Management</strong>
-                    <p>IAM | Data Loss Prevention (DLP)</p>
-                </div>
-                <div class="skill-item">
-                    <strong>Business Continuity</strong>
-                    <p>BCM | Business Impact Analysis (BIA)</p>
-                </div>
-                <div class="skill-item">
-                    <strong>Security Policy</strong>
-                    <p>Policy Development | Vendor Risk Assessment</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="section">
-            <h2>Key Achievements</h2>
-            <ul>
-                <li>Led enterprise-wide security compliance programs ensuring adherence to multiple regulatory frameworks</li>
-                <li>Successfully managed third-party risk assessments and vendor security evaluations</li>
-                <li>Developed and implemented cybersecurity policies aligned with organizational objectives</li>
-                <li>Delivered strategic insights to senior leadership and board-level committees on security posture</li>
-            </ul>
-        </section>
-
-        <section class="section">
-            <h2>Projects</h2>
-           <div class="case-study">
-                <h3>Third-Party Vendor Risk Assessment Program (Enhancement)</h3>
-                <p><strong>Role:</strong> Cyber and Information Security Specialist | <strong>Duration:</strong> 1 year (2023-2024)</p>
-                <p><strong>Project Overview:</strong> Developed and implemented a comprehensive vendor risk assessment framework to strengthen third-party risk management across the organization.</p>
+            <h2>Key Projects & Achievements</h2>
+            
+            <!-- Vendor Risk Assessment Project -->
+            <div class="case-study">
+                <h3>Project 1: Third-Party Vendor Risk Assessment Program (Enhancement)</h3>
+                <p style="font-style: italic; color: #666; margin-bottom: 10px;">Role: Cyber and Information Security Specialist | Duration: 1 year (2023–2024)</p>
+                
+                <p><strong>Project Overview:</strong></p>
+                <p>Developed and implemented a comprehensive vendor risk assessment framework to strengthen third-party risk management across the organization.</p>
                 
                 <p><strong>Key Activities & Controls Implemented:</strong></p>
                 <ul>
@@ -202,13 +136,12 @@
                             <li>Non-critical vendors: Reviews once every 3 years</li>
                         </ul>
                     </li>
-                    <li><strong>Robust User Access Management:</strong> Implemented comprehensive access controls and monitoring for vendor access to organizational systems</li>
+                    <li><strong>User Access Management:</strong> Implemented comprehensive access controls and monitoring for vendor access to organizational systems</li>
                     <li><strong>Inventory Management:</strong> Established centralized vendor inventory with real-time tracking and documentation</li>
-                    <li><strong>Password Change Policy:</strong> Enforced regular password rotation and strong authentication requirements</li>
-                    <li><strong>Change Management Indicators:</strong> Monitoring for significant changes in service delivery or processes</li>
-                    <li><strong>Disruption Indicators:</strong> Early warning system for potential service disruptions or security incidents</li>
-                    <li><strong>Continuous Communication:</strong> Regular reviews of third-party risk management with responsible stakeholders and vendors</li>
-                    <li><strong>Remediation Tracking:</strong> Established systematic tracking and follow-up on identified security gaps</li>
+                    <li><strong>Password & Authentication Policy:</strong> Enforced password rotation and strong authentication requirements</li>
+                    <li><strong>Change & Disruption Monitoring:</strong> Introduced indicators for service or process changes and early warnings for potential disruptions</li>
+                    <li><strong>Continuous Communication:</strong> Maintained regular reviews with stakeholders and vendors on third-party risk</li>
+                    <li><strong>Remediation Tracking:</strong> Implemented systematic follow-up on identified gaps until closure</li>
                 </ul>
                 
                 <p><strong>Frameworks & Standards:</strong> NIST CSF, ISO 27001, OSFI Guidelines B-13 & B-10</p>
@@ -216,68 +149,74 @@
                 <p><strong>Results & Impact:</strong></p>
                 <ul>
                     <li>Successfully assessed 50+ vendors across the organization</li>
-                    <li>Identified and documented 15 high-risk security gaps</li>
+                    <li>Identified and remediated 15 high-risk security gaps</li>
                     <li>Achieved 90% remediation rate within 6 months</li>
-                    <li>Significantly improved vendor security posture and organizational risk profile</li>
-                    <li>Enhanced compliance with regulatory requirements (OSFI B-13 & B-10)</li>
+                    <li>Improved vendor security posture and overall risk visibility</li>
+                    <li>Enhanced compliance with OSFI B-13 & B-10 regulatory requirements</li>
                 </ul>
-
-                       <!-- Data Risk Management Project -->
-        <div class="case-study">
-            <h3>Data Risk Management & DLP Transformation</h3>
-            <p style="font-style: italic; color: #666; margin-bottom: 10px;">Cyber and Information Security Office | 10 months (2024-2025)</p>
-            <p><strong>Challenge:</strong> Conducted comprehensive data governance assessment using risk assessment methodology revealing critical gaps - low data visibility, incomplete DLP controls, and 25 high-risk vulnerabilities.</p>
-            <p><strong>Solution:</strong> Developed data risk framework aligned with NIST CSF, ISO 27001, OSFI B13/B10, PIPEDA, GDPR, FINMA. Created data classification taxonomy. Enhanced DLP controls with web classification, device protection, print monitoring.</p>
-            <p><strong>Impact:</strong> Achieved 90% remediation rate within 6 months, transforming data governance from high-risk to controlled environment.</p>
-        </div>
-
-        <!-- System Integration Project -->
-        <div class="case-study">
-            <h3>Third-Party System Integration Security</h3>
-            <p style="font-style: italic; color: #666; margin-bottom: 10px;">Cyber and Information Security Specialist | 8 months (2023-2024)</p>
-            <p><strong>Challenge:</strong> Assessed security implications of integrating new third-party system (Portfolio Plus) with existing infrastructure using change risk assessment methodology, identifying gaps affecting network topology.</p>
-            <p><strong>Solution:</strong> Conducted change risk assessment aligned with NIST CSF, ISO 27001, OSFI guidelines. Performed network topology analysis. Implemented next-generation firewall, system hardening, patch management, vulnerability scanning with remediation tracking.</p>
-            <p><strong>Impact:</strong> Established secure integration framework with monthly reporting and quarterly assessments ensuring ongoing compliance and visibility.</p>
-        </div>
-
-            </div></section>
-
-        <section class="section">
-            <h2>Certifications</h2>
-            <div class="cert-item">
-                <strong>CISA</strong> - Certified Information Systems Auditor
             </div>
-            <div class="cert-item">
-                <strong>ISC² CC</strong> - Certified in Cybersecurity
+            
+            <!-- Data Risk Management Project -->
+            <div class="case-study">
+                <h3>Data Risk Management & DLP Transformation</h3>
+                <p style="font-style: italic; color: #666; margin-bottom: 10px;">Cyber and Information Security Specialist | 10 months (2024-2025)</p>
+                <p><strong>Challenge:</strong> Conducted enterprise-wide data governance assessment revealing critical gaps in data visibility, classification, and leakage prevention capabilities.</p>
+                <p><strong>Solution:</strong> Developed comprehensive data risk framework aligned with NIST CSF, ISO 27001, OSFI B-13/B-10, PIPEDA, GDPR, and FINMA. Established data classification model and strengthened DLP mechanisms with web classification, endpoint protection, and print monitoring. Implemented incident monitoring with real-time alerts and remediation tracking.</p>
+                <p><strong>Impact:</strong> Identified and addressed 25 high-risk vulnerabilities. Achieved 90% remediation within 6 months, improving control maturity and reducing data exposure. Strengthened compliance readiness for privacy and regulatory audits.</p>
             </div>
-            <div class="cert-item">
-                <strong>CompTIA Security+</strong>
+            
+            <!-- System Integration Project -->
+            <div class="case-study">
+                <h3>Third-Party System Integration Security</h3>
+                <p style="font-style: italic; color: #666; margin-bottom: 10px;">Cyber and Information Security Specialist | 8 months (2023-2024)</p>
+                <p><strong>Challenge:</strong> Assessed security implications of integrating new third-party system (Portfolio Plus) with existing infrastructure using change risk assessment methodology, identifying gaps affecting network topology.</p>
+                <p><strong>Solution:</strong> Conducted change risk assessment aligned with NIST CSF, ISO 27001, OSFI guidelines. Performed network topology analysis. Implemented next-generation firewall, system hardening, patch management, vulnerability scanning with remediation tracking.</p>
+                <p><strong>Impact:</strong> Established secure integration framework with monthly reporting and quarterly assessments ensuring ongoing compliance and visibility.</p>
             </div>
-            <div class="cert-item">
-                <strong>Google Cybersecurity Professional</strong>
-            </div>
-            <div class="cert-item">
-                <strong>Cisco Cybersecurity</strong>
+            
+            <!-- Migration Project -->
+            <div class="case-study">
+                <h3>Secure Migration from Google Workspace to Microsoft 365</h3>
+                <p style="font-style: italic; color: #666; margin-bottom: 10px;">Cyber and Information Security Specialist | 9 months (2024-2025)</p>
+                <p><strong>Challenge:</strong> Led secure migration from Google Workspace to Microsoft 365, ensuring data integrity, identity protection, and compliance throughout the transition.</p>
+                <p><strong>Solution:</strong> Conducted pre-migration risk assessment. Implemented RBAC, enforced MFA for all users, configured Microsoft Defender and Azure AD logs for monitoring. Ensured secure data transfer with encryption-in-transit and at-rest. Integrated Microsoft Endpoint Manager for device compliance. Implemented Azure AD SSO and federation. Delivered user training on secure practices.</p>
+                <p><strong>Impact:</strong> Migrated 1000+ users with zero security incidents. Achieved 100% MFA adoption. Reduced unauthorized access attempts by 80% within three months post-migration.</p>
             </div>
         </section>
-
+        
         <section class="section">
-            <h2>What I'm Looking For</h2>
-            <p>Seeking <strong>Senior GRC Manager</strong>, <strong>Cyber Risk Manager</strong>, or <strong>Information Security Officer</strong> roles in financial services or regulated industries where I can leverage my expertise in security governance, compliance, and risk management to drive organizational resilience.</p>
+            <h2>Core Competencies</h2>
+            <ul>
+                <li>Third-Party Risk Management & Vendor Risk Assessment</li>
+                <li>Data Risk Management & Data Loss Prevention (DLP)</li>
+                <li>Governance, Risk & Compliance (GRC)</li>
+                <li>Security Controls Implementation & Audit</li>
+                <li>Regulatory Compliance (OSFI B-13/B-10, ISO 27001, NIST CSF, PIPEDA, GDPR)</li>
+                <li>Identity & Access Management (IAM)</li>
+                <li>Vulnerability Management & Remediation</li>
+                <li>Security Architecture & System Integration</li>
+                <li>Cloud Security (Microsoft 365, Azure)</li>
+                <li>Stakeholder Management & Communication</li>
+            </ul>
         </section>
-
+        
         <section class="section">
-            <h2>Connect With Me</h2>
-            <div class="contact-links">
-                <a href="https://www.linkedin.com/in/aamit-bansal/" class="btn" target="_blank">LinkedIn Profile</a>
-                <a href="mailto:your.email@example.com" class="btn">Email Me</a>
-            </div>
-            <p style="margin-top: 1rem;">Open to connecting with professionals in cybersecurity, risk management, and financial services.</p>
+            <h2>Professional Certifications</h2>
+            <ul>
+                <li>Certified Information Systems Security Professional (CISSP) - in progress</li>
+                <li>Certified in Risk and Information Systems Control (CRISC)</li>
+                <li>ISO 27001 Lead Implementer</li>
+            </ul>
+        </section>
+        
+        <section class="section contact-info">
+            <h2>Contact Information</h2>
+            <p>
+                <a href="mailto:amit.bansal@example.com">Email</a> |
+                <a href="https://linkedin.com/in/amitbansal" target="_blank">LinkedIn</a> |
+                <a href="https://github.com/amitbansal1411" target="_blank">GitHub</a>
+            </p>
         </section>
     </div>
-
-    <footer>
-        <p>&copy; 2025 Amit Bansal | Senior Cybersecurity & GRC Professional</p>
-    </footer>
 </body>
 </html>
